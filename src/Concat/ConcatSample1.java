@@ -5,8 +5,8 @@ public class ConcatSample1
 {
     public static void main(String[] args)
     {
-        String firstName = "ヒラヤマ";
-        String lastName  = "ソウヤ";
+        String firstName = "苗字";
+        String lastName  = "名前";
 
         String name = firstName + lastName; // 連結
         

@@ -5,8 +5,8 @@ public class ConcatSample4
 {
     public static void main(String[] args)
     {
-        String firstName = "ヒラヤマ";
-        String lastName  = "ソウヤ";
+        String firstName = "苗字";
+        String lastName  = "名前";
         StringBuilder sb = new StringBuilder();
 
         sb.append(firstName);
