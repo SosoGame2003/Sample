@@ -14,6 +14,12 @@ public class Practice02 extends JFrame
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         // ウィンドウの表示位置とサイズ
-        frame.setBounds(0, 0, 900, 900);
+        // frame.setBounds(0, 0, 900, 900);
+
+        // ウィンドウのサイズ
+        frame.setSize(900, 900);
+
+        // ウィンドウの表示位置を画面中央にする
+        frame.setLocationRelativeTo(null);
     }
 }
